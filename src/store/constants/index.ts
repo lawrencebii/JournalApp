@@ -1,0 +1,8 @@
+export const SIGNUP = 'REGISTER';
+export const SIGNUP_SUCCESS = 'REGISTER_SUCCESSFUL';
+export const SIGNUP_FAILED= 'REGISTER_FAILED';
+
+export const SIGNIN = 'LOGIN';
+export const SIGNIN_SUCCESS = 'LOGIN_SUCCESSFUL';
+export const SIGNIN_FAILED= 'LOGIN_FAILED';
+
