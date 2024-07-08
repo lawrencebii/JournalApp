@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
 import { TextInput, View } from 'react-native';
 import { concatStyles } from '../../common/styles/style-util';
 import { inputStyles } from './input-style';
 import StyledParagraph from '../styled-paragraph/styled-paragraph';
-import { Icon } from 'react-native-vector-icons/Icon';
+
 import { colors } from '../../common/styles/colors/colors';
+
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 type inputProps = {
     label: any,
@@ -12,8 +14,6 @@ type inputProps = {
     prefixIcon?: any,
     suffixIcon?: any,
     onSuffixIconPress?: () => void
-
-
 }
 const InputField = (props: inputProps) => {
     return (
@@ -35,6 +35,7 @@ const InputField = (props: inputProps) => {
                     color={colors.DARK_BLUE}
                 />
             }
+
             {
                 props.suffixIcon && <Icon
                     style={concatStyles(inputStyles.iconContainer, inputStyles.suffixContainer)}
@@ -47,7 +48,7 @@ const InputField = (props: inputProps) => {
 
 
         </View>
-    )
-}
+    );
+};
 
 export default InputField;

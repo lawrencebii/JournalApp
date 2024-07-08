@@ -1,0 +1,7 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "diffEditor.experimental.showMoves": true,
+    "editor.formatOnType": true
+}
